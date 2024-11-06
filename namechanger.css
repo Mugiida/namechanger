@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap");
+
+body {
+	background: rgb(108, 108, 255);
+	height: 100vh;
+	margin: 0;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+* {
+	font-family: "Inconsolata", monospace;
+}
+
+main {
+	background-color: rgba(255, 255, 255, 0.822);
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+	display: flex;
+	width: 80vw;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.534);
+}
+
+input {
+	width: 80%;
+	height: 40px;
+	border: none;
+	text-align: center;
+	border-radius: 15px;
+	color: gray;
+	font-size: 20px;
+	text-transform: capitalize;
+	box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.534);
+}
+input::placeholder {
+	color: gray;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+button {
+	width: 80%; /* Set width to 80% of the section */
+	box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.534);
+	margin-top: 10px;
+	height: 40px;
+	border: 7px solid rgb(108, 108, 255);
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	background-color: rgb(108, 108, 255);
+	border-radius: 15px;
+}
+
+div {
+	min-width: 200px;
+	height: 40vh;
+	background-color: white;
+	box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.534);
+	width: 40%;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+section {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+	max-width: 60%;
+}
+input,
+button {
+	width: 80%;
+	max-width: none;
+	transition: all 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+/* Decorative style */
+.decorated-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(bg.avif);
+	background-size: cover;
+	text-transform: uppercase;
+	padding: 10px 5px 10px 5px;
+	font-size: 80px;
+	color: white;
+	font-weight: 900;
+	-webkit-text-stroke: 2.2px rgb(108, 108, 255);
+	font-family: "DynaPuff", system-ui;
+	cursor: default;
+}

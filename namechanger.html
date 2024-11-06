@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="main.js"></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NameFx</title>
+		<link rel="icon" type="image/jpg" href="" />
+		<link rel="stylesheet" href="namechanger.css" />
+		<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0/dist/html2canvas.min.js"></script>
+	</head>
+	<body>
+		<main>
+			<section>
+				<h1>want to make a style to your boring name&#63;</h1>
+				<input type="text" placeholder="Enter it here" />
+				<button onclick="styleButton()">Style</button>
+				<button onclick="convertToImage()">
+					Download Image<svg
+						xmlns="http://www.w3.org/2000/svg"
+						height="24px"
+						viewBox="0 -960 960 960"
+						width="24px"
+						fill="#FFFFFF"
+					>
+						<path
+							d="M440-800v487L216-537l-56 57 320 320 320-320-56-57-224 224v-487h-80Z"
+						/>
+					</svg>
+				</button>
+			</section>
+			<div id="styledContent"></div>
+		</main>
+	</body>
+</html>
